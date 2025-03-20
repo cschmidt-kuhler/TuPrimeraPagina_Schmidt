@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Ordenes de Trabajo</title>
+</head>
+<body>
+    <h1>Lista de Ordenes de Trabajo</h1>
+    <ul>
+        {% for ots in OT %}
+            <li>{{ OT.cliente }} {{ OT.nro_ot }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

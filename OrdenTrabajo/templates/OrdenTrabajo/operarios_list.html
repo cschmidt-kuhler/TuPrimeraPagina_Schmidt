@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Operarios</title>
+</head>
+<body>
+    <h1>Lista de Operarios</h1>
+    <ul>
+        {% for operario in Operario %}
+            <li>{{ Operario.nombre }} {{ Operario.apellido }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

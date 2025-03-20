@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Herramientas</title>
+</head>
+<body>
+    <h1>Lista de Herramientas</h1>
+    <ul>
+        {% for herramienta in Herramienta %}
+            <li>{{ Herramienta.tipo }} {{ Herramienta.modelo }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
